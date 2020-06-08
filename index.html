@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/dc9180e397.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="banner d-flex flex-column align-items-center">
+        <h1 class="text-white text-center p-5 title">高雄市旅遊資訊</h1>
+        <select class="dropdown-sel areaSelect">
+            <option value="" class="areaSelect">--請選擇行政區</option>
+            <option value="苓雅區">苓雅區</option>
+            <option value="三民區">三民區</option>
+            <option value="新興區">新興區</option>
+            <option value="大樹區">大樹區</option>
+            <option value="前金區">前金區</option>
+            <option value="左營區">左營區</option>
+            <option value="楠梓區">楠梓區</option>
+        </select>
+    </div>
+
+    <div class="justify-content-center row m-0">
+        <div class="shadow p-3 mb-5 bg-white rounded py-3 topSection col-8">
+            <h4 class="pb-2">熱門行政區</h4>
+            <ul class="d-lg-flex justify-content-center pb-2 topArea">
+                <li class="btn btn-primary btn-block btn-md-inline-block px-4 m-1 mr-md-3 topBtn">苓雅區</li>
+                <li class="btn btn-success btn-block px-4 m-1 mr-md-3 topBtn">三民區</li>
+                <li class="btn btn-warning btn-block px-4 m-1 mr-md-3 topBtn">新興區</li>
+                <li class="btn btn-info btn-block px-4 m-1 topBtn">大樹區</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="d-flex justify-content-center align-items-center hrarea">
+        <div class="downarr">
+            <i class="fas fa-chevron-down "></i>
+        </div>
+    </div>
+
+    <div class="districtArea container">
+        <div>
+            <h3 class="districTitle text-center p-5"></h3>
+        </div>
+
+        <ul class="districtList row justify-content-center"></ul>
+    </div>
+
+    <div class="footer">
+        <h5 class="font-weight-light text-center text-white pt-3 pb-2">高雄旅遊網</h5>
+        <h5 class="font-weight-light text-center source-text pb-3">資料來源：高雄市政府</h5>
+    </div>
+
+    <script src="all.js"></script>
+</body>
+
+</html>

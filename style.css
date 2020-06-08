@@ -1,0 +1,199 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+v2.0 | 20110126
+License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol,
+ul {
+    list-style: none;
+}
+blockquote,
+q {
+    quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: "";
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+* {
+    font-family: Microsoft JhengHei;
+}
+
+.banner {
+    height: 400px;
+    background-image: url(image/banner.png);
+    background-size: cover;
+    background-position: top center;
+}
+
+.dropdown-sel {
+    width: 450px;
+    height: 48px;
+    background-color: rgb(255, 255, 255, 0.8);
+    letter-spacing: 5px;
+}
+@media (max-width: 569px) {
+    .dropdown-sel {
+        max-width: 300px;
+    }
+}
+
+.title {
+    letter-spacing: 8px;
+    font-weight: 300;
+}
+.topSection {
+    margin-top: -30px;
+    background-color: white;
+}
+
+.downarr {
+    width: 24px;
+    height: 24px;
+    border: 1px solid #559ac8;
+    border-radius: 50%;
+    background-color: #559ac8;
+    z-index: 1;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+.hrarea .downarr {
+    position: relative;
+}
+
+.hrarea::before {
+    content: " ";
+    border-top: 3px dashed #559ac8;
+    position: absolute;
+    width: 80%;
+}
+
+.districTitle {
+    color: #8a82cc;
+}
+
+.bg-cover {
+    height: 155px;
+    background-size: cover;
+    background-position: center center;
+}
+
+.footer {
+    background-color: #559ac8;
+}
+.source-text {
+    color: #ffd366;
+}
