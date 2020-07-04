@@ -127,7 +127,8 @@ table {
     border-collapse: collapse;
     border-spacing: 0;
 }
-* {
+
+body{
     font-family: Microsoft JhengHei;
 }
 
@@ -196,4 +197,21 @@ table {
 }
 .source-text {
     color: #ffd366;
+}
+
+.gotop {
+    position: fixed;
+    bottom: 110px;
+    right: 0;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    background: #D46856;
+    color:#FFF;
+    cursor: pointer;
+    border-radius: 50% 0 0 50%;
+    transition: all .3s ease;
+}
+.gotop:hover{
+    background: rgb(143, 71, 58);
 }
